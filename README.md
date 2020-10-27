@@ -13,3 +13,8 @@ Here the flow process of ehealth utilization dags (sqmlogic_ehealth_utilization.
 6. The last task (move-to-staging.sh) will move clean csv into staging zone hadoop .
 
 All those process running automatically and scheduled every 10 minutes and monitored by telegram bot.
+
+Below is the dags graph view of sqmlogic_ehealth_utilization
+
+![photo_2020-10-27_16-43-12](https://user-images.githubusercontent.com/25681997/97284668-eb204b80-1873-11eb-8b8f-f32fc1e0cc2e.jpg)
+
