@@ -3,7 +3,6 @@ jam=`date -d "now -0 minutes" +%H`
 
 echo $ds_now
 echo $jam
-export RSYNC_PASSWORD=sigma123
 
 rfolder=/home/sqm_app/airflow/dags/script/hasil_ukur/periodik/data
 rscript=/home/sqm_app/airflow/dags/script/hasil_ukur/periodik
