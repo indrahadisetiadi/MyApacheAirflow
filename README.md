@@ -12,4 +12,4 @@ Here the flow process of ehealth utilization dags (sqmlogic_ehealth_utilization.
 5. The result of second task store as new file called clean CSV
 6. The last task (move-to-staging.sh) will move clean csv into staging zone hadoop .
 
-All those process running automatically and scheduled every 10 menit . 
+All those process running automatically and scheduled every 10 minutes . 
